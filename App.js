@@ -21,6 +21,16 @@ export default function App() {
           component={FormScreen}
           options={{ title: "Form" }}
         />
+        <Stack.Screen
+          name="Pokemon"
+          component={PokemonHomeScreen}
+          options={{ title: "Pokemon" }}
+        />
+        <Stack.Screen
+          name="ViewPokemon"
+          component={PokemonViewScreen}
+          options={{ title: "ViewPokemon" }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
