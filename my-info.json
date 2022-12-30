@@ -1,7 +1,7 @@
 {
-  "favoriteColors": ["blue", "green", "purple"],
-  "favoriteCountry": "Japan",
-  "populationCountry ": 1000000000,
-  "visitWithinFiveYears": false,
-  "favoriteFoods": ["pizza", "sushi", "tacos"]
+  "favorite_colors": ["blue", "green", "purple"],
+  "favorite_country": "Japan",
+  "population_country ": 1000000000,
+  "visit_within_five_years": false,
+  "favorite_foods": ["pizza", "sushi", "tacos"]
 }  
