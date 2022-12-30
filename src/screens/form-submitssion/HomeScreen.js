@@ -17,6 +17,17 @@ export default function HomeScreen({ navigation }) {
         title="Contact Us"
         style={{ alignItems: "center", justifyContent: "center" }}
       />
+      <Button
+        onPress={() => {
+          navigation.push("Pokemon");
+        }}
+        title="View Catalog"
+        style={{
+          alignItems: "center",
+          justifyContent: "center",
+          marginTop: 20,
+        }}
+      />
     </View>
   );
 }
